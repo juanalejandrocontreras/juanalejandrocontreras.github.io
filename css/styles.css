@@ -1,0 +1,288 @@
+/* -- Main Stylesheet -- */
+
+/* -- Initial Styles -- */
+
+html {
+    font-size: 100%;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px; 
+    padding: 0px;
+    touch-action: manipulation;
+}
+
+.section {
+    padding: 100px 0 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.section .heading:before {
+    content:'';
+    height: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    background: #2b5de7;
+}
+
+.section .heading {
+    margin-bottom: 60px;
+}
+
+
+a, button {
+    color: inherit;
+}
+
+.icon-link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    line-height: 1; 
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;   
+}
+
+ul {
+    padding-left: 0px
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.icon {
+    font-size: 1.1em;
+    display: inline-block;
+    line-height: inherit;
+}
+
+/* -- Section A -- */
+
+.section-a:before {
+    content:'';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+}
+
+.section-a {
+    padding: 50px 0;
+    position: relative;
+    background-size: cover; 
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* -- Profile Info -- */
+
+.profile {
+    color: #fff;
+}
+
+.profile .profile-img {
+    max-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profile .information > li { 
+    display: block;
+    margin: 5px 0;
+}
+
+.profile .social-icons > li > a {
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    border-radius: 20px; 
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    margin: 0 5px 5px;
+    text-align: center;
+    background: #2b5de7;
+    color: #fff;
+}
+
+.profile .social-icons > li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 20px;
+    background: rgb(0, 16, 105); 
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.profile .social-icons > li > a:hover:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.profile .downlad-btn { padding: 15px 30px;
+    border-radius: 4px;
+    float: right;
+    margin-top: 30px;
+    box-shadow: inset 0 0px 4px rgba(0,0,0,.3);
+    background: #2b5de7;
+    color: #fff; 
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.profile .downlad-btn:hover{
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
+.section-a .section-a-info-box {
+    border-radius: 5px;
+    padding: 30px 40px 20px;
+    margin-bottom: 50px;
+    background: #2b5de7;
+    color: #fff;
+}
+
+.section-a .info {
+    margin-bottom: 10px;
+}
+
+.section-a .info .icon {
+    float: left;
+    font-size: 30px;
+}
+
+.section-a .info .text-area { 
+    margin-left: 50px;
+}
+
+/* -- About Section -- */
+	
+.counter .title {
+    color: #2b5de7;
+}
+
+/* -- Edcation Section -- */
+
+.education-wrapper {
+    position: relative;
+}
+
+.education-wrapper:after {
+    content:'';
+    position: absolute;
+    top: 8px;
+    bottom: 0;
+    left: -51px;
+    width: 2px;
+    background: #ccc;
+}
+
+.education-wrapper .education{
+    position: relative;
+}
+
+.education-wrapper .education:after{
+    content:'';
+    position: absolute;
+    top: 8px;
+    left: -58px;
+    width: 16px; 
+    height: 16px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 0 0 8px #b8cbff;
+    background: #2b5de7;
+}
+
+/* Quote Section */
+
+.quote-section {
+    padding: 80px 0;
+    position: relative;
+    background-size: cover; 
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+.quote-section:before {
+    content:'';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+}
+	
+.quote-section .icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px; width: 40px;
+    line-height: 40px; 
+    border-radius: 30px;
+    background: #2b5de7;
+    color: #fff;
+}
+
+/* Skills Section */
+
+.skills-section .expert {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 1px 25px 0;
+    border-radius: 5px;
+    background: #2b5de7;
+    color: #fff;
+}
+
+.skills-section .moderate {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 1px 25px 0;
+    border-radius: 5px;
+    background: #4ca80e;
+    color: #fff;
+}
+
+/* Languages Section */
+
+.languages-section .expert {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 1px 25px 0;
+    border-radius: 5px;
+    background: #2b5de7;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 0px;
+    color: #fff;
+    background: #2b5de7;
+}
+
+
+
+
+
+	
+
+
+

@@ -32,8 +32,9 @@ html {
 }
 
 
-a, button {
+a {
     color: inherit;
+    /* text-decoration: underline; */
 }
 
 .icon-link {

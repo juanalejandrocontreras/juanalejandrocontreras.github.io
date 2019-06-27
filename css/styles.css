@@ -34,7 +34,6 @@ html {
 
 a {
     color: inherit;
-    /* text-decoration: underline; */
 }
 
 .icon-link {
@@ -63,7 +62,7 @@ li {
 
 /* -- Section A -- */
 
-.section-a:before {
+.profile-section:before {
     content:'';
     z-index: -1;
     position: absolute;
@@ -73,7 +72,7 @@ li {
     right: 0;
 }
 
-.section-a {
+.profile-section {
     padding: 50px 0;
     position: relative;
     background-size: cover; 
@@ -114,13 +113,12 @@ li {
 
 .profile .downlad-btn {
     padding: 15px 25px;
-    border-radius: 4px;
-    box-shadow: inset 0 0px 4px rgba(0,0,0,.3);
+    border-radius: 5px;
     background: #2b5de7;
     color: #fff;
 }
 
-.section-a .section-card {
+.profile-section .section-card {
     color:white;
     background-color: #2b5de7;
     margin: 10px 40px;
@@ -129,7 +127,7 @@ li {
   }
 
   .section-card .fa {
-    font-size: 36px;
+    font-size: 32px;
     color:white;
   }
 
@@ -137,7 +135,7 @@ li {
     margin: 10px 20px;
   }
 
-.section-a .info .icon {
+.profile-section .info .icon {
     float: left;
     font-size: 20px;
 }
@@ -185,7 +183,7 @@ li {
 /* Quote Section */
 
 .quote-section {
-    padding: 80px 0;
+    padding: 20px 0;
     position: relative;
     background-size: cover; 
     z-index: 1;
@@ -242,6 +240,14 @@ li {
     border-radius: 5px;
     background: #2b5de7;
     color: #fff;
+}
+
+.a-text {
+    text-decoration: underline;
+}
+.a-text:hover {
+    text-decoration: none;
+    color: gray;
 }
 
 .footer {

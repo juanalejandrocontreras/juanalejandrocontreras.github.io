@@ -151,38 +151,41 @@ li {
     color: #2b5de7;
 }
 
-/* -- Edcation Section -- */
+/* -- Education Section -- */
 
-.education-wrapper {
-    position: relative;
-}
+@media screen and (min-width: 1025px) {
+    .education-wrapper {
+        position: relative;
+    }
+    
+    .education-wrapper:after {
+        content:'';
+        position: absolute;
+        top: 8px;
+        bottom: 0;
+        left: -51px;
+        width: 2px;
+        background: #ccc;
+    }
+    
+    .education-wrapper .education{
+        position: relative;
+    }
+    
+    .education-wrapper .education:after{
+        content:'';
+        position: absolute;
+        top: 8px;
+        left: -58px;
+        width: 16px; 
+        height: 16px;
+        border-radius: 10px;
+        z-index: 1;
+        box-shadow: 0 0 0 8px #b8cbff;
+        background: #2b5de7;
+    }
+  }
 
-.education-wrapper:after {
-    content:'';
-    position: absolute;
-    top: 8px;
-    bottom: 0;
-    left: -51px;
-    width: 2px;
-    background: #ccc;
-}
-
-.education-wrapper .education{
-    position: relative;
-}
-
-.education-wrapper .education:after{
-    content:'';
-    position: absolute;
-    top: 8px;
-    left: -58px;
-    width: 16px; 
-    height: 16px;
-    border-radius: 10px;
-    z-index: 1;
-    box-shadow: 0 0 0 8px #b8cbff;
-    background: #2b5de7;
-}
 
 /* Quote Section */
 

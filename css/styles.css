@@ -12,6 +12,10 @@ html {
     touch-action: manipulation;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .section {
     padding: 100px 0 50px;
     border-bottom: 1px solid #ddd;
@@ -249,6 +253,17 @@ li {
     text-decoration: none;
     color: gray;
 }
+.card {
+    border: none;
+}
+
+.crop-text-4 {
+    -webkit-line-clamp: 4;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
 
 .footer {
     text-align: center;

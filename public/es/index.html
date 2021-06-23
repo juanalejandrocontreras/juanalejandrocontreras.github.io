@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/helpers/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/03fb79fbb0.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <title>Juan Alejandro | Inicio</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <header>
+            <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="ms-auto navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavMarkup" aria-controls="navbarNavMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i id="toggle" class="fas fa-bars fa-lg"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavMarkup">
+                        <ul class="navbar-nav ms-3 ms-lg-5 me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://es.trugusto.com" target="_blank">Trabajo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/sobre-mi">Educación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#personalModal"
+                                    style="cursor: pointer;">Sobre mi</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-3 ms-lg-auto me-5 mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/en">English</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Profile Section -->
+
+        <section class="container">
+            <div class="mx-lg-5 pt-5 pt-lg-0">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <h2><b>Juan Alejandro</b></h2>
+                        <h4>Desarrollador de aplicaciones web/móviles</h4>
+                        <ul class="information mt-3">
+                            <li><b>UBICACIÓN ACTUAL</b> : San Juan, PR</li>
+                        </ul>
+                        <ul class="social-icons">
+                            <li>
+                                <a class="icon icon-link" href="https://www.facebook.com/jalejandrocontreras"
+                                    target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon icon-link" href="https://www.instagram.com/j.ale.cs" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 my-4">
+                        <h5>
+                            Hola, gracias por visitar mi página personal.
+                            Aquí podrás ver las cosas que he hecho y las cosas en las que estoy trabajando.
+                            <br><br>Hace un par de años me mudé de vuelta a mi país luego de estar viviendo en el
+                            extranjero por casi 5 años.
+                            Ahora estoy empeñado en hacer realidad unos proyectos propios.
+                            <br><br>
+                            Puedes echar un vistazo y no dudes en contactarme en las redes sociales.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-5 d-md-flex justify-content-md-center my-5">
+                <a class="btn btn-primary py-3 px-0 p-md-4 btn-lg" href="https://es.trugusto.com" target="_blank"
+                    role="button">
+                    <i class="fa fas fa-laptop-house fa-2x"></i>
+                    <h5 class="py-3">Proyecto actual: Trugusto</h5>
+                </a>
+                <a class="btn btn-primary py-3 px-0 p-md-4 btn-lg" href="/sobre-mi" role="button">
+                    <i class="fa fas fa-user-tie fa-2x"></i>
+                    <h5 class="py-3">Historial profesional</h5>
+                </a>
+                <button type="button" class="btn btn-primary py-3 px-0 p-md-4 btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#personalModal">
+                    <i class="fa fas fa-user fa-2x"></i>
+                    <h5 class="py-3">Detalles sobre mi</h5>
+                </button>
+            </div>
+        </section>
+
+        <!-- Personal modal -->
+
+        <div class="modal fade" id="personalModal" tabindex="-1" aria-labelledby="personalModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="personalModalLabel">Detalles sobre mi</h5>
+                        <button type="button" class="btn close-button" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="fa fas fa-times fa-2x"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h5>¿Situación de vivienda actual?</h5>
+                        <h6 class="mb-4">Vivo solo.</h6>
+                        <h5>¿Casado?</h5>
+                        <h6 class="mb-4">No.</h6>
+                        <h5>¿Alguna vez te has casado?</h5>
+                        <h6 class="mb-4">No.</h6>
+                        <h5>¿Tienes hijos?</h5>
+                        <h6 class="mb-4">No.</h6>
+                        <h5>¿Está dispuesto a mudarte de país?</h5>
+                        <h6 class="mb-4">Todo depende.</h6>
+                        <h5>¿Fumas?</h5>
+                        <h6 class="mb-4">No.</h6>
+                        <h5>¿Bebes alcohol?</h5>
+                        <h6 class="mb-4">Socialmente.</h6>
+                        <h5>¿Pasatiempos?</h5>
+                        <h6 class="mb-4">Ningún pasatiempo por el momento, la mayoría de mi tiempo libre me la paso
+                            ayudando a mi familia y haciedo las tareas del hogar.</h6>
+                        <h5>¿Practicas algún deporte?</h5>
+                        <h6 class="mb-4">Tennis.</h6>
+                        <h5>¿Practicabas algun otro deporte?</h5>
+                        <h6 class="mb-4">Volibol.</h6>
+                        <h5>¿Cuántos países has visitado?</h5>
+                        <h6 class="mb-4">12.</h6>
+                        <h5>¿Que aspectos de tu vida estás mejorando?</h5>
+                        <h6 class="mb-4">Mi bienestar físico y mis destrezas de emprendedor.</h6>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </main>
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-muted">Última actualización - junio 2021</span>
+        </div>
+    </footer>
+    <script src="/helpers/js/bootstrap.bundle.min.js"></script>
+    <script src="/helpers/js/dark-mode.js"></script>
+</body>
+
+</html>

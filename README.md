@@ -1,2 +1,2 @@
-# Website for projects and contact info
-[**juanalejandrocontreras.github.io**](https://juanalejandrocontreras.github.io)
+# Personal website and contact info
+[**juanalejandro.me**](https://juanalejandro.me)

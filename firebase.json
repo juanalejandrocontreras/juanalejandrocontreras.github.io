@@ -1,0 +1,45 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "i18n": {
+      "root": "/"
+    },
+    "rewrites": [
+      {
+        "source": "/en",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/es",
+        "destination": "/es/index.html"
+      },
+      {
+        "source": "/sobre-mi",
+        "destination": "/es/sobre-mi/index.html"
+      },
+      {
+        "source": "/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/es/**",
+        "destination": "/es/index.html"
+      }
+    ]
+  },
+  "emulators": {
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,232 @@
+/* -- Initial Styles -- */
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+.section {
+    padding: 100px 0 50px;
+    border-bottom: 1px solid #ddd;
+}
+.section-end {
+    padding: 100px 0 50px;
+}
+
+.section .heading:before {
+    content:'';
+    height: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    background: #2b5de7;
+}
+
+.section .heading {
+    margin-bottom: 60px;
+}
+
+
+a {
+    color: inherit;
+}
+
+.icon-link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    line-height: 1; 
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;   
+}
+
+ul {
+    padding-left: 0px
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.icon {
+    font-size: 1.1em;
+    display: inline-block;
+    line-height: inherit;
+}
+
+.profile .profile-img {
+    max-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.information > li { 
+    display: block;
+    margin: 5px 0;
+}
+
+.social-icons > li > a {
+    font-size: 35px;
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    border-radius: 20px; 
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    margin: 0 5px 5px;
+    text-align: center;
+}
+
+.download-btn {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: #2b5de7;
+    color: #fff;
+}
+
+.card-text {
+    margin: 10px 20px;
+  }
+
+/* Quote Section */
+	
+.quotes .icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px; width: 40px;
+    line-height: 40px; 
+    border-radius: 30px;
+    background: #2b5de7;
+    color: #fff;
+}
+
+@media (prefers-color-scheme: light) {
+
+    body {
+        background-color: #f8f9fa;
+        color: #212529;
+    }
+
+    #toggle {
+        color: #212529;
+    }
+
+    .social-icons > li > a {
+        color: #222;
+    }
+
+    .close-button, .close-button:hover {
+        background-color: #fff;
+        color: #212529;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #212529;
+        color: #fff;
+    }
+
+    #toggle {
+        color: #fff;
+    }
+
+    .social-icons > li > a {
+        color: #fff;
+    }
+
+    .modal-content {
+        background-color: #212529;
+    }
+
+    .close-button, .close-button:hover {
+        background-color: #212529;
+        color: #fff;
+    }
+}
+
+/* -- About Me Section -- */
+
+@media screen and (min-width: 992px) {
+    .dots-wrapper {
+        position: relative;
+    }
+    
+    .dots-wrapper:after {
+        content:'';
+        position: absolute;
+        top: 8px;
+        bottom: 0;
+        left: -51px;
+        width: 2px;
+        background: #ccc;
+    }
+    
+    .dots-wrapper .dots{
+        position: relative;
+    }
+    
+    .dots-wrapper .dots:after{
+        content:'';
+        position: absolute;
+        top: 8px;
+        left: -58px;
+        width: 16px; 
+        height: 16px;
+        border-radius: 10px;
+        z-index: 1;
+        box-shadow: 0 0 0 8px #b8cbff;
+        background: #2b5de7;
+    }
+
+    .dots-wrapper .current-dot{
+        position: relative;
+    }
+    
+    .dots-wrapper .current-dot:after{
+        content:'';
+        position: absolute;
+        top: 8px;
+        left: -58px;
+        width: 16px; 
+        height: 16px;
+        border-radius: 10px;
+        z-index: 1;
+        box-shadow: 0 0 0 8px #b8cbff;
+        background: #b8cbff;
+    }
+  }
+
+/* Languages Section */
+
+.level {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 1px 25px 0;
+    border-radius: 5px;
+    background: #2b5de7;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .language {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .language {
+        text-align: left;
+    }
+}

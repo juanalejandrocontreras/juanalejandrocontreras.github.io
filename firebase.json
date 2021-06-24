@@ -22,7 +22,7 @@
       },
       {
         "source": "/sobre-mi",
-        "destination": "/es/sobre-mi/index.html"
+        "destination": "/es/sobre-mi.html"
       },
       {
         "source": "/**",

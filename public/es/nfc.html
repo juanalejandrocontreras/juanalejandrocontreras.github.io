@@ -33,7 +33,7 @@
     }
 
     .fb-icon {
-        background: #4267B2;
+        background: #1778F2;
     }
 
     .whatsapp-icon {
@@ -53,41 +53,39 @@
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
     }
 
+    .airbnb-icon {
+        background: #FF5A5F;
+    }
+
     .btn {
-        border-radius: 1rem;
+        border-radius: .75rem;
     }
 </style>
 
 <body class="container">
     <div class="d-flex flex-column align-items-center text-center p-3 mt-5">
-        <img width="150px" class="img-fluid rounded mx-auto d-block"
-            src="https://scontent.fsig3-1.fna.fbcdn.net/v/t1.6435-9/52851320_10101430922807239_300066532925374464_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=exRBsc0xYYoAX9IshOH&_nc_ht=scontent.fsig3-1.fna&oh=d4ecff73abf7c7c7172149679cd939fc&oe=60D90B0E">
+        <img width="150px" class="img-fluid rounded-3 mx-auto" src="/images/profile_picture.jpeg">
         <h1 class="mt-5 font-weight-bold">Juan Alejandro</h1>
     </div>
-    <div class="row mb-5 px-2 text-center">
-        <div class="col-6 col-md-3 d-grid my-5">
-            <a class="btn btn-lg text-white fb-icon" href="https://www.fb.com/jalejandrocontreras" target="_blank"
-                role="button">
-                <i class="fa fab fa-facebook fa-3x pt-2"></i>
-            </a>
-        </div>
-        <div class="col-6 col-md-3 d-grid my-5">
-            <a class="btn btn-lg text-white ig-icon py-3" href="https://www.instagram.com/j.ale.cs" target="_blank"
-                role="button">
-                <i class="fa fab fa-instagram fa-3x"></i>
-            </a>
-        </div>
-        <div class="col-6 col-md-3 d-grid my-md-5">
-            <a class="btn btn-lg text-white whatsapp-icon py-3" href="https://wa.me/17872385931?text=Hola!%20"
-                target="_blank" role="button">
-                <i class="fa fab fa-whatsapp fa-3x"></i>
-            </a>
-        </div>
-        <div class="col-6 col-md-3 d-grid my-md-5">
-            <a class="btn btn-lg text-white globe-icon py-3" href="/es" target="_blank" role="button">
-                <i class="fa fas fa-globe fa-3x"></i>
-            </a>
-        </div>
+    <div class="d-grid gap-4 my-4 px-2 text-center">
+        <a class="btn btn-lg text-white fb-icon" href="https://www.fb.com/jalejandrocontreras" target="_blank"
+            role="button">
+            <i class="fa fab fa-facebook-square fa-lg me-2"></i>Facebook
+        </a>
+        <a class="btn btn-lg text-white ig-icon" href="https://www.instagram.com/j.ale.cs" target="_blank"
+            role="button">
+            <i class="fa fab fa-instagram fa-lg me-2"></i>Instagram
+        </a>
+        <a class="btn btn-lg text-white whatsapp-icon" href="https://wa.me/17872385931?text=Hola!%20"
+            target="_blank" role="button">
+            <i class="fa fab fa-whatsapp fa-lg me-2"></i>Whatsapp
+        </a>
+        <a class="btn btn-lg text-white airbnb-icon" href="https://www.airbnb.com/h/cozy-house-in-central-san-juan" target="_blank" role="button">
+            <i class="fab fa-airbnb fa-lg me-2"></i>Airbnb
+        </a>
+        <a class="btn btn-lg text-white globe-icon" href="/es" target="_blank" role="button">
+            <i class="fa fas fa-globe fa-lg me-2"></i>Página web
+        </a>
     </div>
     <script src="/helpers/js/bootstrap.bundle.min.js"></script>
 </body>

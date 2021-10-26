@@ -230,3 +230,7 @@ li {
         text-align: left;
     }
 }
+
+.last-btn {
+    padding-bottom: 20px + env(safe-area-inset-bottom) !important;
+}

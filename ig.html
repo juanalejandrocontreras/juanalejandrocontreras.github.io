@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f8f9fa" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#212529" media="(prefers-color-scheme: dark)">
+    <link href="/helpers/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/03fb79fbb0.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <title>Instagram</title>
+</head>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        color: #212529;
+    }
+
+    @media (prefers-color-scheme: light) {
+        body {
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #212529;
+            color: #fff;
+        }
+    }
+
+    .youtube-icon {
+        background: red;
+    }
+
+    .whatsapp-icon {
+        background: #4FCE5D;
+    }
+
+    .senciyes-icon {
+        background: #F3AE64;
+    }
+
+    .calendar-icon {
+        background: #eb4e3d;
+    }
+
+    .btn {
+        border-radius: .75rem;
+    }
+</style>
+
+<body class="container">
+    <div class="d-flex flex-column align-items-center text-center p-3 mt-4">
+        <img width="150px" class="img-fluid rounded-3 mx-auto" src="/images/profile_picture.jpeg">
+        <h1 class="mt-4 font-weight-bold">Juan Alejandro</h1>
+        <h4 class="mt-2">Enlaces</h4>
+    </div>
+    <div class="d-grid gap-4 my-3 px-2 text-center">
+        <a class="btn btn-lg text-white youtube-icon" href="https://www.youtube.com/@juan.alejandro" target="_blank" role="button">
+            <i class="fa-brands fa-youtube fa-lg me-2"></i>Canal de YouTube
+        </a>
+        <a class="btn btn-lg text-white senciyes-icon" href="https://es.senciyes.com" target="_blank" role="button">
+            <i class="fa-solid fa-mobile-screen fa-lg me-2"></i>App de comida casera
+        </a>
+        <a class="btn btn-lg text-white whatsapp-icon" href="https://wa.me/17872385931?text=¡Hola Juan Alejandro! Me interesa que me ayudes a organizarme en la cocina."
+        target="_blank" role="button">
+        <i class="fa-brands fa-whatsapp fa-lg me-2"></i>Consultas
+        </a>
+    </div>
+    <script src="/helpers/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
